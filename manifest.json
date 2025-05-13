@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "BroTab",
+  "short_name": "BroTab",
+  "version": "1.4.0",
+  "description": "Control your browser's tabs from command line",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt87/baf4YREe9ZhH2+w6+dxFRt+vqhTikAuUokO5u60zjO3fN3TKFAzNU0gpy2DHYiuD5srXDw/SLUQ1pF2FGIxDvnKdCQbXunuO6H+d5MXETpW9bBQP3mCZVYUPS81Gb8uruYHTYQyO5/990j2DT9Z0ks9Bw4a4AqLB0I5ROBU8VsL3M72fSK1JvDDGL1U7iJDEuwWgadbGolMmMn+kiKm3ZU3HFbe0FI9fKAJ4v7gJWkLQsBRZtUxxedxEOOre/Sib/cGde6wMYd4YmwDXH1yZustjlVTXaOFG2ih9q2sdzUjDxIaBcTwfmekvRYie66ZvyNBtXMPY8XsE38eZ2wIDAQAB",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "brotab-icon-128x128.png"
+  },
+  "permissions": [
+    "tabs",
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {}
+}
